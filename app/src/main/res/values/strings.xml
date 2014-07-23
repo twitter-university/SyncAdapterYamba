@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Yamba</string>
+    <string name="menu_about">About</string>
+    <string name="about">Yamba!\n   Created by Twitter University</string>
+
+    <!-- Timeline Activity -->
+    <string name="menu_timeline">Timeline</string>
+    <string name="timeline_write">Permission to write the Yamba Timeline</string>
+    <string name="timeline_read">Permission to read the Yamba Timeline</string>
+
+    <!-- Timeline Detail Activity -->
+    <string name="title_timeline_detail">Detail</string>
+
+    <!-- Tweet Activity -->
+    <string name="menu_tweet">Tweet</string>
+    <string name="title_tweet">Tweet</string>
+    <string name="tweet_hint">Whazzup?</string>
+    <string name="tweet_submit">Submit</string>
+    <string name="tweet_succeeded">Tweet sent</string>
+    <string name="tweet_failed">Tweet not sent!</string>
+
+    <!-- Account -->
+    <string name="account_handle">Handle:</string>
+    <string name="account_handle_example">student</string>
+    <string name="account_password">Password:</string>
+    <string name="account_password_example">password</string>
+    <string name="account_endpoint">Endpoint:</string>
+    <string name="account_endpoint_example">http://yamba.marakana.com/api</string>
+    <string name="account_submit">Create</string>
+    <string name="account_failed">Failed to create account</string>
+
+    <!-- Sync -->
+    <string name="account_type">com.twitter.university.android.yamba.ACCOUNT</string>
+
+</resources>

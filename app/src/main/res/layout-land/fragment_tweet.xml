@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".TweetFragment" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="2" >
+
+        <TextView
+            android:id="@+id/tweet_title"
+            style="@style/yambaText.label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title_tweet" />
+
+        <TextView
+            android:id="@+id/tweet_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tweet_title"
+            android:textColor="@color/tweet_len_ok"
+            android:text="@integer/tweet_max"/>
+
+        <Button
+            android:id="@+id/tweet_submit"
+            style="@style/yambaText.button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tweet_submit"
+            android:enabled="false"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/tweet_tweet"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/fog"
+        android:gravity="top|left"
+        android:hint="@string/tweet_hint"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

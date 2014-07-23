@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="fog">#88888888</color>
+    <color name="gray">#888888</color>
+    <color name="black">#000000</color>
+    <color name="accent">#66bbff</color>
+    <color name="text">#3388ff</color>
+    <color name="tweet_len_ok">#339944</color>
+    <color name="tweet_len_warn">#dd7711</color>
+    <color name="tweet_len_err">#dd2200</color>
+
+</resources>
+
+

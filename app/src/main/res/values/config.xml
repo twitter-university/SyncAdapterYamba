@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="tweet_max">140</integer>
+    <integer name="warn_max">10</integer>
+    <integer name="err_max">0</integer>
+    <integer name="poll_interval">180</integer>
+    <integer name="poll_max">20</integer>
+
+</resources>
